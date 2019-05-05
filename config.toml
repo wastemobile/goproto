@@ -1,0 +1,9 @@
+baseURL = "/"
+languageCode = "zh-TW"
+defaultContentLanguage = "zh-TW"
+hasCJKLanguage = true
+
+title = "hugoProto"
+
+[params]
+	subtitle = "Hugo Prototype with Bulma"
