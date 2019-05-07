@@ -7,6 +7,11 @@
     <title>{{ block "title" . }}
       {{ .Title }} | {{ .Site.Title }}
     {{ end }}</title>
+
+    <link rel="stylesheet" href="/vendor/fontawesome-free/css/all.min.css">
+
+    {{ $style := resources.Get "goproto.scss" | toCSS | fingerprint "md5" }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   <body>
     <header>
@@ -14,7 +19,7 @@
 
       {{ end }}
     </header>
-    <main>
+    <main aria-role="main">
       {{ block "main" . }}
 
       {{ end }}
