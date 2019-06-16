@@ -5,5 +5,7 @@ hasCJKLanguage = true
 
 title = "hugoProto"
 
+publishDir = "docs"
+
 [params]
 	subtitle = "Hugo Prototype with Bulma"
