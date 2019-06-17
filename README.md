@@ -11,3 +11,8 @@ Static Site with Hugo.
 - 將主分支的 `/docs` 當成網站根目錄。此模式特別適用於靜態網站生成器（SSG - Static Site Generator），Hugo 預設使用 `/public` 目錄，但可以在 `config.toml` 中修改 `publishDir = "docs"` 即可。
 
 因此當模板開發時應使用「開發分支」，開發完成合併至 master branch 時等於自動發布正式版。
+
+- `git branch dev`
+- `git checkout dev`
+- `git push --set-upstream origin dev`
+
