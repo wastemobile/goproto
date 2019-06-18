@@ -1,0 +1,31 @@
+{{ define "title" -}}
+  {{ .Title }} | {{ .Site.Title }}
+{{- end }}
+
+{{ define "header" }}
+    <div class="container">
+        <p>header</p>
+    </div>
+{{ end }} 
+
+{{ define "main" }}
+
+<div class="columns is-fullheight">
+    <div class="column">
+        <section class="hero is-default is-bold">
+            <div class="hero-body">
+                <div class="content container">
+                  <h1 class="title is-family-secondary">{{ .Title }}</h1>
+                   {{ .Content}}
+                </div>
+                <br>
+            </div>
+        </section>
+    </div>
+</div>
+{{ end }} 
+{{ define "footer" }} 
+    <div class="container">
+        <p>footer</p>
+    </div>
+{{ end }}

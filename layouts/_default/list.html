@@ -1,0 +1,36 @@
+{{ define "header" }}
+    <div class="container">
+        <p>header</p>
+    </div>
+{{ end }} 
+
+{{ define "main" }}
+<div class="columns is-fullheight">
+    <div class="column">
+        <section class="hero is-default is-bold">
+            <div class="hero-body">
+                <div class="container">
+                    {{ range .Pages }}
+                        <h2 class="title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h2>
+                        <h3 class="content">
+                            {{ .Summary }}
+                        </h3>
+                    {{ end }}
+                </div>
+                <br>
+                <div class="container">
+                    {{ partial "pagination" . }} 
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+{{ end }}
+
+{{ define "footer" }} 
+    <div class="container">
+        <p>footer</p>
+    </div>
+{{ end }}
