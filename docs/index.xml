@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugoProto</title>
+    <link>https://wastemobile.github.io/goproto/</link>
+    <description>Recent content on hugoProto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 18 Jun 2019 21:54:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://wastemobile.github.io/goproto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github Pages</title>
+      <link>https://wastemobile.github.io/goproto/posts/github-pages/</link>
+      <pubDate>Tue, 18 Jun 2019 21:54:03 +0800</pubDate>
+      
+      <guid>https://wastemobile.github.io/goproto/posts/github-pages/</guid>
+      <description>GitHub Pages 是目前最便宜（免費）且便利的靜態網站部署點。</description>
+    </item>
+    
+    <item>
+      <title>Hello, Hugo &amp; Bulma</title>
+      <link>https://wastemobile.github.io/goproto/posts/hello/</link>
+      <pubDate>Tue, 18 Jun 2019 11:27:38 +0800</pubDate>
+      
+      <guid>https://wastemobile.github.io/goproto/posts/hello/</guid>
+      <description>Hugo 無疑是目前最強悍的靜態網站生成器（SSG - Static Site Generator），據說 5 秒鐘能生成 6000 頁，當然得利於 Go 語言在底層的運作。 而 Bulma 是一個很新的 CSS</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://wastemobile.github.io/goproto/about/</link>
+      <pubDate>Sat, 04 May 2019 22:02:08 +0800</pubDate>
+      
+      <guid>https://wastemobile.github.io/goproto/about/</guid>
+      <description>Hugo.</description>
+    </item>
+    
+  </channel>
+</rss>

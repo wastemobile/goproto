@@ -1,7 +1,5 @@
 {{ define "header" }}
-    <div class="container">
-        <p>header</p>
-    </div>
+    {{ partial "navbar" . }}
 {{ end }} 
 
 {{ define "main" }}
@@ -9,7 +7,7 @@
     <div class="column">
         <section class="hero is-default is-bold">
             <div class="hero-body">
-                <div class="container">
+                <div class="">
                     {{ range .Pages }}
                         <h2 class="title">
                             <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -20,7 +18,7 @@
                     {{ end }}
                 </div>
                 <br>
-                <div class="container">
+                <div class="">
                     {{ partial "pagination" . }} 
                 </div>
             </div>
@@ -30,7 +28,5 @@
 {{ end }}
 
 {{ define "footer" }} 
-    <div class="container">
-        <p>footer</p>
-    </div>
+    {{ partial "footer" . }}
 {{ end }}

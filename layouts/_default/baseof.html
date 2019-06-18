@@ -15,20 +15,20 @@
     <link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   <body>
-    <header>
-      {{ block "header" . }}
+    <div class="container" id="bkContainer">
+      <header>
+        {{ block "header" . }}
 
-      {{ end }}
-    </header>
-    <main aria-role="main">
-      {{ block "main" . }}
+        {{ end }}
+      </header>
+      <main aria-role="main">
+        {{ block "main" . }}
 
-      {{ end }}
-    </main>
-    <footer>
-      {{ block "footer" . }}
-
-      {{ end }}
-    </footer>
+        {{ end }}
+      </main>
+      
+      {{ block "footer" . }}{{ end }}
+    </div>
+      
   </body>
 </html>

@@ -4,4 +4,13 @@ $family-sans-serif: "PingFangTC-Light","Microsoft JhengHei","Helvetica Neue","He
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
+$footer-background-color: #4a4a4a;
+
 @import "vendor/bulma/bulma.sass";
+
+html {
+	background-color: #e9e7e0;
+}
+#bkContainer {
+	background-color: #fff;
+}
