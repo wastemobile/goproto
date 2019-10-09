@@ -35,7 +35,7 @@
       <pubDate>Sat, 04 May 2019 22:02:08 +0800</pubDate>
       
       <guid>https://wastemobile.github.io/goproto/about/</guid>
-      <description>Hugo.</description>
+      <description>Hugo. Hugo also offers powerful support for code snippets: package main import &amp;quot;fmt&amp;quot; func print_hi(name string) { fmt.Println(&amp;quot;Hi, &amp;quot;, name) } func main() { print_hi(&amp;quot;Tom&amp;quot;) } //=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.</description>
     </item>
     
   </channel>
