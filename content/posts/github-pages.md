@@ -19,3 +19,7 @@ publishDir = "docs"
 ```
 
 並記得不要擺進 `.gitignore` 檔案中（一般會將 `public/` 目錄加入）。
+
+### 測試
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto sed numquam id dolor vero inventore, sint. Harum fugit repellat, repudiandae ipsam provident totam vitae architecto sed quas eveniet repellendus voluptatem.
