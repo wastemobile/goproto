@@ -21,7 +21,7 @@
     "bulma": "^0.7.5",
     "del": "^5.1.0",
     "gulp-rename": "^1.4.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "merge-stream": "^2.0.0"
   }
 }
